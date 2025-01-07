@@ -1,6 +1,9 @@
 version=1
 id=3353726220
 title=Safehouse Shield (No more thief in the house)
-description=This mod fixes a well-known bug in Project Zomboid that allows players to exploit the "Search Mode" feature to steal items from safehouses they don't have access to. Previously, if a player left items near the edge of their safehouse, unauthorized players could still interact with and loot them by triggering an icon at the boundary. Safehouse Sentinel prevents the creation of these interaction icons in unauthorized areas, ensuring that items left near the borders of a safehouse remain safe from theft. A must-have mod for multiplayer servers looking to enhance safehouse security.
+description=This mod fixes two well-known bugs in Project Zomboid that compromise safehouse security when Server Option "SafehouseAllowLoot" is set to FALSE :
+Search Mode Exploit: Players could exploit the "Search Mode" feature to steal items from safehouses they don’t have access to. Previously, if a player left items near the edge of their safehouse, unauthorized players could still interact with and loot them by triggering an icon at the boundary. Safehouse Shield prevents the creation of these interaction icons in unauthorized areas, ensuring that items left near the borders of a safehouse remain secure.
+Right-Click Grab Bug: Players could right-click on the ground outside an open safehouse and see items available to grab. By selecting GRAB, they could pick up items from inside the safehouse. With this mod, the action is invalidated, preventing the items from being picked up and ensuring they stay protected.
+A must-have mod for multiplayer servers looking to enhance safehouse security and prevent item theft.
 tags=Build 41;Interface;Items;Multiplayer
 visibility=public
