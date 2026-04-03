@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs grep:*)",
+      "Bash(git -C /c/Users/Vorshim/Documents/GitHub/PZ-MOD-ISSearchManager-Safehouse-Fix log --oneline)",
+      "Bash(git:*)",
+      "Bash(find F:/SteamLibrary/steamapps/common/ProjectZomboid/media/lua/client -type f -name *Animal*)",
+      "Bash(find F:/SteamLibrary/steamapps/common/ProjectZomboid/media/lua/client/TimedActions -type f -name *.lua)"
+    ]
+  }
+}
